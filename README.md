@@ -4,6 +4,7 @@ Repo to store scripts
 
 ## Scripts
 
+* [craftsbot](./craftsbot) Script to manage docker images dependencies without getting lost in the ocean.
 * [pytonas](./pytonas) Move the files in a folder to a nas.
 * [rcrc32](./rcrc32) A script to check/add the CRC32 to files in a easy way.
 
