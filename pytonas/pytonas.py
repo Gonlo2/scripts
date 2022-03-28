@@ -142,6 +142,7 @@ class FileOperation:
         except FileExistsError:
             pass
         except OSError:
+            logger.exception('Failed cloning dir "%s" to "%s"', src, dst)
             return FileStatus.ERROR
 
         src = f.src_path(self._src)
